@@ -3,7 +3,7 @@
 <body bgcolor="grey">
 <h1 align="center">这是属于衣锦夜行的地方</h1>
 <p> hello 林林 </p>
-<img src="https://github.com/LHXqwq/LHXqwq.github.io/林林.png" width="104" height="142" />
+<img src="林林.png" width="104" height="142" />
 <p> 对 是我 你最喜欢的李昊星小哥哥 </p>
 <p> 有句话想对你说好久了 </p>
 <p> that is </p>

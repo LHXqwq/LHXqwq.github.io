@@ -1,3 +1,4 @@
+<script type="text/javascript" src="js/mouse.js" opacity= 0.6></script>
 <html>
 <body>
 <body bgcolor="grey">

@@ -1,7 +1,8 @@
-<script type="text/javascript" src="js/mouse.js" opacity= 0.6></script>
+
 <html>
 <body>
 <body bgcolor="grey">
+<script type="text/javascript" src="js/mouse.js" opacity= 0.6></script>
 <h1 align="center">这是属于衣锦夜行的地方</h1>
 <p> hello 林林 </p>
 <img src="林林.png" width="104" height="142" />

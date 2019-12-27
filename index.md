@@ -5,16 +5,19 @@
 <script type="text/javascript" src="mouse.js">
 </script>
 <h1 align="center">这是属于衣锦夜行的地方</h1>
-<button type="button" onclick="document.getElementById('demo').innerHTML = Date()">
+<button type="button" onclick="document.getElementById('demo1').innerHTML = Date()">
 Time and date
 </button>
-<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2">小姐姐</p>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "臭猪池艺林"'>点击我！</button>
 <p> hello 林林 </p>
 <img src="林林.png" width="104" height="142" />
-<p> 对 是我 你最喜欢的李昊星小哥哥 </p>
-<p> 有句话想对你说好久了 </p>
-<p> that is </p>
-<p> 林林你是个大傻子！！！hiahiahiahia </p>
+
+<button onclick="document.getElementById('myImage').src='lin2.jpg'">ha</button>
+<img id="myImage" border="0" src="lin1.jpg" style="text-align:center;">
+<button onclick="document.getElementById('myImage').src='lin3.jpg'">he</button>
+
 <hr />  
 <h2>三个重要的基因组数据库</h2>
     <ul>

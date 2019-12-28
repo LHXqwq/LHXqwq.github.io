@@ -76,13 +76,13 @@
             //5
             var key = 0;
             var square = 0;
-            var timer = setInterval(autoPlay, 10000);
+            var timer = setInterval(autoPlay, 5000);
             screen.onmouseover = function (ev) {
                 clearInterval(timer);
                 div.style.display = "block";
             }
             screen.onmouseout = function (ev) {
-                timer = setInterval(autoPlay, 10000);
+                timer = setInterval(autoPlay, 5000);
                 div.style.display = "none";
             }
             //6
@@ -137,6 +137,43 @@
  
         }
     </script>
+<style>
+
+.div {
+
+    display: inline-block;
+
+    padding: .3em .5em;
+
+    background-image: linear-gradient(#ddd, #bbb);
+
+    border: 1px solid rgba(0,0,0,.2);
+
+    border-radius: .3em;
+
+    box-shadow: 0 1px white inset;
+
+    text-align: center;
+
+    text-shadow: 0 1px 1px black;
+
+    color:white;
+
+    font-weight: bold;
+
+}
+
+.div:active{
+
+    box-shadow: .05em .1em .2em rgba(0,0,0,.6) inset;
+
+    border-color: rgba(0,0,0,.3);
+
+    background: #bbb;
+
+}
+
+</style>
 </head>
 
 <body>
@@ -145,13 +182,15 @@
 <script type="text/javascript" src="mouse.js">
 </script>
 <h1 align="center">这是属于衣锦夜行的地方</h1>
-<button type="button" onclick="document.getElementById('demo1').innerHTML = Date()">
+<button type="button" class="div" onclick="document.getElementById('demo1').innerHTML = Date()">
 Time and date
 </button>
 <p id="demo1"></p>
-<p id="demo2">小姐姐和舒舒</p>
-<button type="button" onclick='document.getElementById("demo2").innerHTML = "两只臭猪"'>点击我！</button>
-<p> hello </p>
+<p id="demo2"> <font size="3" face="Times">
+小姐姐和舒舒
+</font></p>
+<button type="button" class="div" onclick='document.getElementById("demo2").innerHTML = "两只臭猪"'>点击我！</button>
+<p> <font size="3" face="Times"> 我只有这6张照片hhhh </font> </p>
 <body>
 <div class="all" id='all'>
     <div class="screen" id="screen">

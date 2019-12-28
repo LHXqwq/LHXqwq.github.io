@@ -149,34 +149,19 @@ html lang="en">
 Time and date
 </button>
 <p id="demo1"></p>
-<p id="demo2">小姐姐</p>
-<button type="button" onclick='document.getElementById("demo2").innerHTML = "臭猪池艺林"'>点击我！</button>
-<p> hello 林林 </p>
-<img src="林林.png" width="104" height="142" />
-
-<button onclick="document.getElementById('myImage').src='lin2.jpg'">ha</button>
-<img id="myImage" border="0" src="lin1.jpg" style="text-align:center;" width="104" height="142">
-<button onclick="document.getElementById('myImage').src='lin3.jpg'">he</button>
-
-
-<hr />  
-<h2>三个重要的基因组数据库</h2>
-    <ul>
-      <li> <a href="https://www.ncbi.nlm.nih.gov/">NCBI</a></li>
-      <li> <a href="https://phytozome.jgi.doe.gov/pz/portal.html">Phytozome</a></li>
-      <li> <a href="http://plants.ensembl.org/index.html">Ensembl Plant</a></li>
-    </ul>
-</body>  
+<p id="demo2">小姐姐和舒舒</p>
+<button type="button" onclick='document.getElementById("demo2").innerHTML = "两只臭猪"'>点击我！</button>
+<p> hello </p>
 <body>
 <div class="all" id='all'>
     <div class="screen" id="screen">
         <ul id="ul">
-            <li><img src="lin1.jpg" width="500" height="200" /></li>
-            <li><img src="lin2.jpg" width="500" height="200" /></li>
-            <li><img src="lin3.jpg" width="500" height="200" /></li>
-            <li><img src="shu1.JPG" width="500" height="200" /></li>
-            <li><img src="shu2.JPG" width="500" height="200" /></li>
-            <li><img src="shu3.JPG" width="500" height="200" /></li>
+            <li><img src="lin1.jpg" width="200" height="300" /></li>
+            <li><img src="lin2.jpg" width="200" height="300" /></li>
+            <li><img src="lin3.jpg" width="200" height="300" /></li>
+            <li><img src="shu1.jpg" width="200" height="300" /></li>
+            <li><img src="shu2.jpg" width="200" height="300" /></li>
+            <li><img src="shu3.jpg" width="200" height="300" /></li>
         </ul>
         <ol>
  
@@ -188,4 +173,16 @@ Time and date
     </div>
 </div>
 </body>
+
+
+
+<hr />  
+<h2>三个重要的基因组数据库</h2>
+    <ul>
+      <li> <a href="https://www.ncbi.nlm.nih.gov/">NCBI</a></li>
+      <li> <a href="https://phytozome.jgi.doe.gov/pz/portal.html">Phytozome</a></li>
+      <li> <a href="http://plants.ensembl.org/index.html">Ensembl Plant</a></li>
+    </ul>
+</body>  
+
 </html>

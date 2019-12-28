@@ -1,26 +1,26 @@
 
 <html>
-html lang="en">
+<html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>无标题文档</title>
     <style type="text/css">
         *{ padding:0; margin:0; list-style:none; border:0;}
         .all{
-            width:500px;
-            height:200px;
+            width:400px;
+            height:600px;
             padding:7px;
             border:1px solid #ccc;
             margin:100px auto;
             position:relative;
         }
         .screen{
-            width:500px;
-            height:200px;
+            width:400px;
+            height:600px;
             overflow:hidden;
             position:relative;
         }
-        .screen li{ width:500px; height:200px; overflow:hidden; float:left;}
+        .screen li{ width:400px; height:600px; overflow:hidden; float:left;}
         .screen ul{ position:absolute; left:0; top:0px; width:3000px;}
         .all ol{ position:absolute; right:10px; bottom:10px; line-height:20px; text-align:center;}
         .all ol li{ float:left; width:20px; height:20px; background:#fff; border:1px solid #ccc; margin-left:10px; cursor:pointer;}
@@ -76,13 +76,13 @@ html lang="en">
             //5
             var key = 0;
             var square = 0;
-            var timer = setInterval(autoPlay, 1000);
+            var timer = setInterval(autoPlay, 10000);
             screen.onmouseover = function (ev) {
                 clearInterval(timer);
                 div.style.display = "block";
             }
             screen.onmouseout = function (ev) {
-                timer = setInterval(autoPlay, 1000);
+                timer = setInterval(autoPlay, 10000);
                 div.style.display = "none";
             }
             //6
@@ -156,12 +156,12 @@ Time and date
 <div class="all" id='all'>
     <div class="screen" id="screen">
         <ul id="ul">
-            <li><img src="lin1.jpg" width="200" height="300" /></li>
-            <li><img src="lin2.jpg" width="200" height="300" /></li>
-            <li><img src="lin3.jpg" width="200" height="300" /></li>
-            <li><img src="shu1.jpg" width="200" height="300" /></li>
-            <li><img src="shu2.jpg" width="200" height="300" /></li>
-            <li><img src="shu3.jpg" width="200" height="300" /></li>
+            <li><img src="lin1.jpg" width="400" height="600" /></li>
+            <li><img src="lin2.jpg" width="400" height="600" /></li>
+            <li><img src="lin3.jpg" width="400" height="600" /></li>
+            <li><img src="shu1.jpg" width="400" height="600" /></li>
+            <li><img src="shu2.jpg" width="400" height="600" /></li>
+            <li><img src="shu3.jpg" width="400" height="600" /></li>
         </ul>
         <ol>
  

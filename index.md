@@ -186,11 +186,7 @@
 Time and date
 </button>
 <p id="demo1"></p>
-<p id="demo2"> <font size="3" face="Times">
-小姐姐和舒舒
-</font></p>
-<button type="button" class="div" onclick='document.getElementById("demo2").innerHTML = "两只臭猪"'>点击我！</button>
-<p> <font size="3" face="Times"> 我只有这6张照片hhhh </font> </p>
+<p> <font size="3" face="Times"> DR宝宝！ </font> </p>
 <body>
 <div class="all" id='all'>
     <div class="screen" id="screen">
